@@ -27,6 +27,7 @@ ul{
   list-style-type: none;
   font-size: 1.8rem;
   
+  display: inline-block;
   height: 60px;
 }
 
@@ -45,8 +46,6 @@ ul{
   float: right;
   min-width: 200px;
   background-color: rgb(100, 30, 50);
-  
-  height: 60px;
 }
 
 .nav-link a{
