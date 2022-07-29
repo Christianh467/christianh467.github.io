@@ -31,7 +31,6 @@ ul{
   height: 100%;
   z-index: 10;
   background-color: white;
-  min-height: 80px;
 }
 
 .nav-link{
