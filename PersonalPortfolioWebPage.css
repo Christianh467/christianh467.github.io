@@ -26,6 +26,8 @@ ul{
   padding: 0px;
   list-style-type: none;
   font-size: 1.8rem;
+  
+  min-height: 60px;
   height: 100%;
 }
 
@@ -53,6 +55,8 @@ ul{
   padding: 0px 50px;
   color: white;
   text-decoration: none;
+  
+  height: 100%;
 }
 
 .nav-link a:hover{
