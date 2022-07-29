@@ -22,14 +22,12 @@ header{
 }
 
 ul{
-  display: inline-block;
   margin: 0px;
   padding: 0px;
   list-style-type: none;
   font-size: 1.8rem;
   
-  
-  
+  display: inline-block;
 }
 
 .nav-link{
@@ -47,6 +45,8 @@ ul{
   float: right;
   min-width: 200px;
   background-color: rgb(100, 30, 50);
+  
+  height: 100%;
 }
 
 .nav-link a{
