@@ -59,7 +59,7 @@ ul{
   color: white;
   text-decoration: none;
   
-  
+  min-height: 50px;
   height: 100%;
 }
 
