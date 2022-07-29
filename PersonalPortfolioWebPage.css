@@ -22,12 +22,13 @@ header{
 }
 
 ul{
+  display: inline-block;
   margin: 0px;
   padding: 0px;
   list-style-type: none;
   font-size: 1.8rem;
   
-  display: inline-block;
+  
   height: 100%;
 }
 
