@@ -27,6 +27,7 @@ ul{
   height: 60px;
   margin: 0px;
   padding: 0px;
+  display: block;
 }
 
 .nav-link{
