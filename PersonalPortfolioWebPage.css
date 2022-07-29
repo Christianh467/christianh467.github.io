@@ -24,12 +24,8 @@ header{
 ul{
   margin: 0px;
   padding: 0px;
-  min-width: 650px;
   list-style-type: none;
   font-size: 1.8rem;
-  
-  background-color: white;
-  height: 100%;
 }
 
 .nav-link{
