@@ -29,12 +29,11 @@ ul{
   font-size: 1.8rem;
   
   height: 100%;
-  z-index: 10;
-  background-color: white;
 }
 
 nav{
   height: 100%;
+  background-color: white;
 }
 
 .nav-link{
