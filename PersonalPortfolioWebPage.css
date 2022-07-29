@@ -38,7 +38,6 @@ ul{
   margin: 0;
   padding: 0;
   
-  max-height: 68px;
   height: 100%;
 }
 
@@ -56,6 +55,7 @@ ul{
   color: white;
   text-decoration: none;
   
+  max-height: 68px;
   height: 100%;
 }
 
