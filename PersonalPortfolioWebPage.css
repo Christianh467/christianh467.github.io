@@ -244,6 +244,14 @@ footer span{
     min-width: 520px;
   }
 
+  .nav-link a{
+    padding: 0 25px;
+  }
+  
+   .nav-link:last-of-type{
+    min-width: 150px;
+  }
+  
   h1{
     font-size: 3.5rem;
   }
@@ -257,31 +265,10 @@ footer span{
     font-size: 3.3rem;
   }
 
-  .nav-link a{
-    padding: 0 25px;
-  }
-
   .project-tile{
     margin: 0 auto;
     width: 80vw;
     min-width: 400px;
-  }
-
-  .nav-link:last-of-type{
-    min-width: 150px;
-  }
-
-  #project-section{
-    padding: 0px 2rem;
-    padding-top: 20px;
-  }
-
-  #show-all{
-    margin-top: -140px;
-  }
-
-  footer{
-    margin-top: -80px;
   }
 }
 /*SCREEN ADJUSTMENTS*/
