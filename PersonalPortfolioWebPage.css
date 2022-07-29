@@ -14,8 +14,6 @@ body{
 }
 
 header{
-  margin: 0; 
-  padding: 0;
   position: fixed;
   top: 0;
   width: 100%;
@@ -24,8 +22,8 @@ header{
 }
 
 ul{
-  margin: 0;
-  padding: 0;
+ 
+ 
   min-width: 650px;
   list-style-type: none;
   font-size: 1.8rem;
