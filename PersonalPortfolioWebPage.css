@@ -251,10 +251,6 @@ footer span{
     padding: 0 25px;
   }
 
-  .gallery{
-    justify-content: center;  
-  }
-
   .project-tile{
     margin: 0 auto;
     width: 80vw;
