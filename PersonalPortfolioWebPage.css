@@ -270,5 +270,9 @@ footer span{
     width: 80vw;
     min-width: 400px;
   }
+  
+  #show-all{
+    margin-top: 10rem;
+  }
 }
 /*SCREEN ADJUSTMENTS*/
