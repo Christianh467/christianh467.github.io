@@ -238,7 +238,6 @@ footer span{
   margin: 0 5rem;
 }
 
-
 /*SCREEN ADJUSTMENTS*/
 @media screen and (max-width: 735px){
   ul{
@@ -269,7 +268,7 @@ footer span{
   }
 
   .nav-link:last-of-type{
-  min-width: 150px;
+    min-width: 150px;
   }
 
   #project-section{
