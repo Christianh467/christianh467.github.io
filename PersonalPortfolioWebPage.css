@@ -27,6 +27,8 @@ ul{
   min-width: 650px;
   list-style-type: none;
   font-size: 1.8rem;
+  
+  height: 100%;
 }
 
 .nav-link{
