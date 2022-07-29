@@ -37,17 +37,13 @@ ul{
   height: 100%;
 }
 
-.nav-link{
-  display: inline-block;
-  height: 100%;
-  
+.nav-link{ 
   float: left;
   width: min-width;
   max-width: 150px;
   margin: 0;
   padding: 0;
   
-  display: inline-block;
   height: 100%;
 }
 
@@ -55,8 +51,6 @@ ul{
   float: right;
   min-width: 200px;
   background-color: rgb(100, 30, 50);
-  
-  height: 100%;
 }
 
 .nav-link a{
