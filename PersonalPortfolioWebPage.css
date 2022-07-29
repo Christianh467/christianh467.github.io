@@ -135,7 +135,7 @@ h3{
 
 #show-all{
   font-size: 2rem;
-  margin-top: 0px;
+  margin-top: 10rem;
   width: 150px;
   height: 40px;
   background-color: black;
@@ -269,10 +269,6 @@ footer span{
     margin: 0 auto;
     width: 80vw;
     min-width: 400px;
-  }
-  
-  #show-all{
-    margin-top: 10rem;
   }
 }
 /*SCREEN ADJUSTMENTS*/
