@@ -241,7 +241,7 @@ footer span{
 /*SCREEN ADJUSTMENTS*/
 @media screen and (max-width: 735px){
   ul{
-    min-width: 520px;
+    min-width: 400px;
   }
 
   .nav-link a{
@@ -268,7 +268,7 @@ footer span{
   .project-tile{
     margin: 0 auto;
     width: 80vw;
-    min-width: 400px;
+    min-width: 200px;
   }
 }
 /*SCREEN ADJUSTMENTS*/
