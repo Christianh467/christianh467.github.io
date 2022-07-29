@@ -24,14 +24,16 @@ header{
 ul{
   list-style-type: none;
   font-size: 1.8rem;
-  height: 60px;
   margin: 0px;
   padding: 0px;
+  
   display: block;
+  height: 60px;
 }
 
 .nav-link{
-  
+  display: inline-block;
+  height: 100%;
   
   float: left;
   width: min-width;
