@@ -114,7 +114,7 @@ h3{
 
 .gallery{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 4rem;
   width: 100%;
   max-width: 1280px;
@@ -260,6 +260,11 @@ footer span{
     font-size: 1.5rem;
   }
 
+  .gallery{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  
   #project-section h2{
     max-width: 500px;
     font-size: 3.3rem;
