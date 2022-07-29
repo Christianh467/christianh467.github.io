@@ -276,5 +276,10 @@ footer span{
 @media screen and (max-width: 400px){
       .nav-link a{
     padding: 0 5px;
+    
+  }
+
+       ul{
+    min-width: 100vw;
   }
 }
