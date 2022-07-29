@@ -21,18 +21,12 @@ header{
   background-color: darkred;
 }
 
-nav{
-  margin: 0;
-  padding: 0;
-}
-
 ul{
-  margin: 0px;
-  padding: 0px;
   list-style-type: none;
   font-size: 1.8rem;
-  
   height: 60px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .nav-link{
