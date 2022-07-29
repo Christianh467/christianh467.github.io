@@ -21,6 +21,11 @@ header{
   background-color: darkred;
 }
 
+nav{
+  margin: 0;
+  padding: 0;
+}
+
 ul{
   list-style-type: none;
   font-size: 1.8rem;
