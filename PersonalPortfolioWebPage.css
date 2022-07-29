@@ -22,13 +22,13 @@ header{
 }
 
 ul{
- 
- 
+  margin: 0px;
+  padding: 0px;
   min-width: 650px;
   list-style-type: none;
   font-size: 1.8rem;
   
-  z-index: 3;
+  z-index: 10;
   height: 100%;
   background-color: white;
 }
