@@ -272,3 +272,9 @@ footer span{
   }
 }
 /*SCREEN ADJUSTMENTS*/
+
+@media screen and (max-width: 400px){
+      .nav-link a{
+    padding: 0 10px;
+  }
+}
