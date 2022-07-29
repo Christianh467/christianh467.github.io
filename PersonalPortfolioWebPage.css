@@ -119,16 +119,13 @@ h3{
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  margin-bottom: 6rem;
 }
 
 .project-tile{
   display: flex;
+  height: 300px;
   width: 100%;
-  min-height: 300px;
-  min-width: 250px;
   max-width: 450px;
-  max-height: 450px;
   background-color: blue;
 }
 
@@ -138,7 +135,7 @@ h3{
 
 #show-all{
   font-size: 2rem;
-  margin-top: 50px;
+  margin-top: 0px;
   width: 150px;
   height: 40px;
   background-color: black;
@@ -169,6 +166,7 @@ h3{
 #contact-section h1{
   font-weight: 600;
   margin: 0;
+  margin-left: 1rem;
 }
 
 #contact-section h4{
@@ -190,6 +188,10 @@ h3{
   padding-bottom: 50px;
 }
 
+.profile-link{
+  display: inline-block;
+}
+
 .img-container{
   display: flex;
   align-items: center;
@@ -200,10 +202,6 @@ h3{
   height: 50px;
   cursor: pointer;
   margin-bottom: 2rem;
-}
-
-.profile-link{
-  display: inline-block;
 }
 
 i{
