@@ -241,7 +241,7 @@ footer span{
 /*SCREEN ADJUSTMENTS*/
 @media screen and (max-width: 735px){
   ul{
-    min-width: 400px;
+    min-width: 250px;
   }
 
   .nav-link a{
