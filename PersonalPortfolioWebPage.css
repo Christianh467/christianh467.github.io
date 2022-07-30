@@ -64,6 +64,10 @@ ul{
   background-color: rgb(60, 60, 100);
 }
 
+.page-wrap{
+  min-width: 400px;
+}
+
 #welcome-section{
   display: flex;
   flex-direction: column;
@@ -285,6 +289,6 @@ footer span{
   }
 
        ul{
-    min-width: 100vw;
+    width: 100vw;
   }
 }
