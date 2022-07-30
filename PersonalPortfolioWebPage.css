@@ -262,7 +262,7 @@ footer span{
 
   .gallery{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(80vw, 1fr));
   }
   
   #project-section h2{
