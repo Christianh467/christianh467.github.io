@@ -266,7 +266,7 @@ footer span{
   }
   
   #project-section h2{
-    max-width: 500px;
+    max-width: 400px;
     font-size: 3.3rem;
   }
 
@@ -278,7 +278,7 @@ footer span{
 }
 /*SCREEN ADJUSTMENTS*/
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 500px){
       .nav-link a{
     padding: 0 5px;
     
