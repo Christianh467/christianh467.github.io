@@ -21,21 +21,28 @@ header{
   background-color: darkred;
 }
 
-ul{
+nav{
   margin: 0;
   padding: 0;
-  max-height: 100px;
-  min-width: 650px;
+  height: 100%;
+}
+
+ul{
   list-style-type: none;
   font-size: 1.8rem;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  min-width: 650px;
 }
 
 .nav-link{
   float: left;
   width: min-width;
   max-width: 150px;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
 }
 
 .nav-link:last-of-type{
@@ -49,9 +56,9 @@ ul{
   justify-content: center;
   align-items: center;
   padding: 0 50px;
-  height: 100%;
   color: white;
   text-decoration: none;
+  height: 100%;
 }
 
 .nav-link a:hover{
@@ -108,26 +115,21 @@ h3{
 
 .gallery{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 4rem;
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  margin-bottom: 6rem;
 }
-
-
-
 
 .project-tile{
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  height: 300px;
   width: 100%;
   min-width: 300px;
   max-width: 450px;
-  min-height: 300px;
-  max-height: 450px;
   background-color: blue;
   text-align: center;
   overflow: hidden;
@@ -140,11 +142,10 @@ img{
 }
 
 .project-tile a{
-  display: block;
+  display: block;           /*This makes the anchor tag fit the image box, otherwise it oversteps*/
   text-decoration: none;
   width: 100%; 
   height: 100%;
-  border: none;
 }
 
 .label{
