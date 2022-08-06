@@ -130,14 +130,13 @@ h3{
   width: 100%;
   min-width: 300px;
   max-width: 450px;
-  background-color: blue;
   text-align: center;
   overflow: hidden;
 }
 
 img{
   width: 90%;
-  height: auto;
+  height: 90%;
   border: none;
 }
 
