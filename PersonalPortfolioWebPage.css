@@ -1,13 +1,13 @@
 :root{
-    --blue: rgb(0, 0, 200);
-    --dark-blue: rgb(0, 0, 100);
-    --gray: rgb(50, 50, 50);
+  --blue: rgb(0, 0, 200);
+  --dark-blue: rgb(0, 0, 100);
+  --gray: rgb(50, 50, 50);
 }
 
 html{
-    font-family: Georgia;
-    font-size: 10px;
-    box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Georgia;
+  font-size: 10px;
 }
 
 body{
@@ -40,17 +40,17 @@ ul{
 
 .nav-link{
   float: left;
-  width: min-width;
-  max-width: 150px;
   margin: 0;
   padding: 0;
+  width: min-width;
+  max-width: 150px;
   height: 100%;
 }
 
 .nav-link:last-of-type{
   float: right;
   min-width: 200px;
-  background-color: rgb(0, 0, 100);
+  background-color: var(--dark-blue);
 }
 
 .nav-link a{
@@ -64,7 +64,7 @@ ul{
 }
 
 .nav-link a:hover{
-  background-color: rgb(50, 50, 50);
+  background-color: var(--gray);
 }
 
 #welcome-section{
@@ -80,24 +80,24 @@ ul{
 
 h1{
   margin: 0;
+  margin-bottom: 1rem;
   font-size: 4.8rem;
   font-weight: 600;
-  margin-bottom: 1rem;
 }
 
 h3{
+  margin: 0;
   font-size: 2.2rem;
   font-weight: 3000;
   color: white;
-  margin: 0;
 }
 
 #resume-section{
-  height: 100px;
-  background-color: gray;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100px;
+  background-color: gray;
 }
   
 #resume a{
@@ -110,8 +110,8 @@ h3{
   }
   
 #resume i{
-  font-size: 4rem;
   margin-top: .5rem;
+  font-size: 4rem;
   }
   
 #resume span{
@@ -133,31 +133,31 @@ h3{
   margin: 0 auto;
   margin-bottom: 6rem;
   max-width: 750px;
-  line-height: 7rem; /*keeps words from touching bottom border*/
   font-size: 4.5rem;
   font-weight: 600;
   color: black;
   border-bottom: solid 2px;
+  line-height: 7rem; /*keeps words from touching bottom border*/
 }
 
 .gallery{
+  margin: 0 auto;
+  margin-bottom: 6rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 4rem;
   width: 100%;
   max-width: 1280px;
-  margin: 0 auto;
-  margin-bottom: 6rem;
 }
 
 .project-tile{
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  height: 300px;
   width: 100%;
   min-width: 300px;
   max-width: 450px;
-  height: 300px;
   background-color: #C2B4D6 ;
   text-align: center;
   overflow: hidden;
@@ -172,10 +172,10 @@ img{
 
 .project-tile a{
   display: block;
-  text-decoration: none;
   width: 100%; 
   height: 100%;
   border: none;
+  text-decoration: none;
 }
 
 .label{
@@ -183,7 +183,7 @@ img{
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-color: rgb(0, 0, 300);
+  background-color: rgb(0, 0, 255);
   color: lightgray;
   font-size: 1.8rem;
   font-weight: 600;
@@ -194,11 +194,11 @@ img{
 }
 
 #show-all{
-  font-size: 2rem;
   margin-top: 50px;
   width: 150px;
   height: 40px;
   background-color: black;
+  font-size: 2rem;
   color: white;
   cursor: pointer;
 }
@@ -285,7 +285,7 @@ footer{
   font-size: 1.8rem;
   color: white;
   border-top: solid 5px;
-  border-color: rgb(0, 0, 200);
+  border-color: var(--blue);
 }
 
 footer span{
